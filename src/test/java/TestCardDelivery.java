@@ -22,7 +22,7 @@ public class TestCardDelivery {
 
     @Test
     void shouldSuccessfulCardOrder() {
-        open("http://localhost:7777");
+        open("http://localhost:9999");
 
         Configuration.holdBrowserOpen = true;
 
